@@ -30,7 +30,7 @@ export default function AgeCalc() {
                 <i className="input-group-text fa-regular fa-calendar"></i>
             </div>
             <div className="mx-auto"><button onClick={CalcAge} className="btn btn-primary">Calculate Age</button></div>
-            <div>You are {age} years old</div>
+            <div className="text-center h3">You are {age} years old</div>
         </div>
     )
 }
